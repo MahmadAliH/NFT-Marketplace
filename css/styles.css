@@ -154,7 +154,7 @@
     height: 120px;
     border-radius: 100px;
 }
-.creators-btn {
+.creators-desk-btn {
     padding: 0px 50px 0px 50px;
     height: 60px;
     border: 2px solid #A259FF;
@@ -164,10 +164,13 @@
     font-weight: 600;
     transition: all 500ms ease;
 }
-.creators-btn:hover {
+.creators-desk-btn:hover {
     background: rgba(0,0,0,0);
 	color: #ffffff;
 	box-shadow: inset 0 0 0 3px #A259FF;
+}
+.creators-mob-btn{
+    display: none;
 }
 .card-creators {
     width: 240px;
@@ -602,11 +605,22 @@
     .bg-color-sizing {
         padding: 40px 30px 40px;
     }
+    .hero-title {
+        font-size: 28px;
+        font-weight: 600; 
+        width: auto; 
+    }
+    .hero-text {
+        font-size: 16px;
+        margin-bottom: 0px;
+        width: auto;
+ 
+    }
     .hero-block{
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center !important;
-        
+        align-items: center;
+        gap: 40px !important;
         
     }
     .hero-content {
@@ -618,8 +632,14 @@
         display: none;
     }
     .hero-mob {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    .hero-button {
+        width: 330px;
+    }
+
     .hero-card {
         display: flex;
         flex-direction: column;
@@ -627,6 +647,45 @@
     }
     .hero-personal-info {
         margin-bottom: 20px;
+    }
+    .hero-progress-bar {
+        justify-content: center;
+        column-gap: 3rem;
+    }
+    
+    .creators-desk-btn {
+        display: none;
+    }
+    .creators-mob-btn {
+        display: block;
+        padding: 0px 50px 0px 50px;
+        height: 60px;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+        color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 0);
+        font-weight: 600;
+        width: 330px;    
+    }
+    .creators-mob-btn:hover {
+        transition: all 500ms ease; 
+        background: rgba(0,0,0,0);
+        color: #ffffff;
+        box-shadow: inset 0 0 0 3px #A259FF;
+    
+    }
+    .creators-grid {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .creators-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discover-cards {
+        margin-bottom: 40px;
     }
 
     .nft-btn-desk {
