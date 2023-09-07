@@ -424,15 +424,14 @@
         width: 330px;
     }
     .hero-card {
-        width: 330px;
-        /* height: 330px ; */
+        width: 430px;
     }
     .card-astronaut {
-        width: 330px;
-        height: 210px;
+        width: 430px;
+        height: 310px;
     }
     .card-astronaut img {
-        width: 330px;
+        width: 430px;
     }
     .hero-numbers {
         font-size: 22px;
@@ -583,6 +582,19 @@
 
     .nft-footer {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 920px) {
+    .hero-card {
+        width: 330px;
+    }
+    .card-astronaut {
+        width: 330px;
+        height: 210px;
+    }
+    .card-astronaut img {
+        width: 330px;
     }
 }
 
