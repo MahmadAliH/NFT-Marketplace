@@ -146,7 +146,8 @@
 }
 .trending-cards::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #A259FF;
+    border: 2px solid #A259FF;
+    /* background-color: #A259FF; */
 }
 .trending-cards::-webkit-scrollbar-track{
     border-radius: 10px;
@@ -186,7 +187,8 @@
 }
 .creators-grid::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #A259FF;
+    border: 2px solid #A259FF;
+    /* background-color: #A259FF; */
 }
 .creators-grid::-webkit-scrollbar-track{
     border-radius: 10px;
@@ -295,7 +297,8 @@
 }
 .discover-cards::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #A259FF;
+    border: 2px solid #A259FF;
+    /* background-color: #A259FF; */
 }
 .discover-cards::-webkit-scrollbar-track{
     border-radius: 10px;
@@ -896,4 +899,33 @@
     .footer-color-sizing {
         padding: 40px 30px 80px 30px;
     }
+}
+
+@media (max-width: 375px) {
+.browse-cards {
+    height: 250px;
+    overflow-x: scroll;
+    flex-wrap: nowrap !important;
+}
+.browse-cards::-webkit-scrollbar {
+    height: 10px;
+    background-color: #3B3B3B;
+    border-radius: 10px;
+}
+.browse-cards::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px solid #A259FF;
+    /* background-color: #A259FF; */
+}
+
+.nft-footer form input {
+    width: 300px !important;
+    border-radius: 20px !important;
+    margin-bottom: 16px;
+}  
+.nft-footer form button {
+    width: 300px !important;
+    margin-left: 30px;
+} 
+
 }
