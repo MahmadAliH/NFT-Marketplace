@@ -126,6 +126,18 @@
     font-size: 22px; 
     margin-bottom: 60px;
 }
+.trending-cards::-webkit-scrollbar {
+    height: 10px;
+    background-color: #3B3B3B;
+    border-radius: 10px;
+}
+.trending-cards::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #A259FF;
+}
+.trending-cards::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
 
 .collection-pictures{
     border-radius: 20px;
@@ -153,6 +165,18 @@
     width: 120px;
     height: 120px;
     border-radius: 100px;
+}
+.creators-grid::-webkit-scrollbar {
+    width: 10px;
+    background-color: #3B3B3B;
+    border-radius: 10px;
+}
+.creators-grid::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #A259FF;
+}
+.creators-grid::-webkit-scrollbar-track{
+    border-radius: 10px;
 }
 .creators-desk-btn {
     padding: 0px 50px 0px 50px;
@@ -240,6 +264,18 @@
 }
 .discover-desc {
     font-size: 22px;
+}
+.discover-cards::-webkit-scrollbar {
+    height: 10px;
+    background-color: #3B3B3B;
+    border-radius: 10px;
+}
+.discover-cards::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #A259FF;
+}
+.discover-cards::-webkit-scrollbar-track{
+    border-radius: 10px;
 }
 .cards-discover-info {
     width: 330px;
@@ -365,11 +401,6 @@
 }
 
 
-
-
-
-
-
 .footer-color-sizing {
     background-color: #3B3B3B;
     padding: 40px 115px 80px 115px;
@@ -389,7 +420,6 @@
 .nft-footer div a:hover {
     color: #A259FF !important;
 }
-
 
 @media (max-width: 1200px) {
     .bg-color-sizing {
@@ -462,7 +492,7 @@
         font-size: 16px;
     }
     .creators-grid {
-        overflow-x: scroll;
+        overflow-y: scroll;
         height: 360px;
     }
     .card-creators {
