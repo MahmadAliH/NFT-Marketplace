@@ -381,10 +381,10 @@
     display: flex;
     gap: 30px;
 }
-.howit-works-cards div {
+.howit-works-card {
     background-color: #3B3B3B;
     border-radius: 20px;
-    padding: 10px 30px 30px 30px;
+    padding: 10px 60px 30px 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -398,6 +398,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    max-width: 390px;
+    min-width: 300px;
 }
 
 .subscribe-title {
@@ -617,11 +619,8 @@
     .how-desc {
         font-size: 16px;
     }
-    .howit-works-cards {
-        overflow-x: scroll;
-    }
-    .howit-works-cards div {
-        width: 210px;
+    .howit-works-card {
+        min-width: 210px;
     }
     .howit-works-cards h3 {
         font-size: 16px;
@@ -688,6 +687,7 @@
     .card-astronaut img {
         width: 330px;
     }
+    
 }
 
 @media (max-width: 820px) {

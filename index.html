@@ -45,7 +45,7 @@
 
   <!-- hero-block -->
   <div class="hero-block container-fluid bg-color-sizing d-flex justify-content-between gap-3">
-    <div class="hero-content dark-text-color" data-aos="fade-left">
+    <div class="hero-content dark-text-color" data-aos="fade-right">
       <h1 class="hero-title">Discover Digital Drt & Collect NFTs</h1>
       <p class="hero-text">
         NFT Marketplace UI Created With Anima For Figma. Collect, Buy And Sell Art From More Than 20k NFT Artists.
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <div class="hero-card dark-text-color">
+    <div class="hero-card dark-text-color" data-aos="fade-left">
       <div class="card-astronaut d-flex align-items-center">
         <img src="./assets/picture.png" alt="astronaut">
       </div>
@@ -111,11 +111,13 @@
 
   <!-- trending collection -->
   <div class="container-fluid bg-color-sizing dark-text-color">
-    <h2 class="trending-title">Trending Collection</h2>
-    <p class="trending-desc">Checkout Our Weekly Updated Trending Collection.</p>
+    <div data-aos="fade" data-aos-once="true">
+      <h2 class="trending-title">Trending Collection</h2>
+      <p class="trending-desc">Checkout Our Weekly Updated Trending Collection.</p>
+    </div>
 
     <div class="trending-cards d-flex justify-content-between gap-4">
-      <div class="d-flex flex-column row-gap-3"  style="width: 330px;">
+      <div class="d-flex flex-column row-gap-3" data-aos="fade-right" style="width: 330px;">
         <a href="">
           <img class="collection-pictures" width="330px" src="./assets/dog.png" alt="dog">
         </a>
@@ -141,7 +143,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column row-gap-3"  style="width: 330px;">
+      <div class="d-flex flex-column row-gap-3" data-aos="fade-up" style="width: 330px;">
         <a href="">
           <img class="collection-pictures" width="330px" src="./assets/mushroom1.png" alt="dog">
         </a>
@@ -167,7 +169,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column row-gap-3"  style="width: 330px;">
+      <div class="d-flex flex-column row-gap-3" data-aos="fade-left" style="width: 330px;">
         <a href="">
           <img class="collection-pictures" width="330px" src="./assets/bot1.png" alt="dog">
         </a>
@@ -199,16 +201,16 @@
   <!-- top-creators -->
   <div class="creators-container container-fluid bg-color-sizing dark-text-color">
     <div class="d-flex justify-content-between align-items-end" style="margin-bottom: 60px;">
-      <div>
-        <h2 class="creators-title" >Top Creators</h2>
+      <div data-aos="fade" data-aos-once="true">
+        <h2 class="creators-title">Top Creators</h2>
         <p class="creators-desc m-0">Checkout Top Rated Creators On The NFT Marketplace</p>
       </div>
-      <button class="creators-desk-btn">
+      <button class="creators-desk-btn" data-aos="fade-left" data-aos-once="true">
         <span><img src="./assets/RocketLaunchViolet.svg" alt=""></span>
         View Rankings
       </button>
     </div>
-    <div class="creators-grid d-flex flex-wrap gap-3">
+    <div class="creators-grid d-flex flex-wrap gap-3" data-aos="fade-up">
 
         <div class="card-creators">
           <span class="cards-number">1</span>
@@ -363,8 +365,8 @@
 
   <!-- browse-categories -->
   <div class="container-fluid bg-color-sizing dark-text-color">
-    <h2 class="browse-title">Browse Categories</h2>
-    <div class="browse-cards d-flex flex-wrap gap-3">
+    <h2 class="browse-title" data-aos="fade" data-aos-once="true">Browse Categories</h2>
+    <div class="browse-cards d-flex flex-wrap gap-3" data-aos="fade-up">
         <div class="card-browse d-flex justify-content-center flex-column" >
           <div class="browse-card-img">
             <img class="browse-card-pic" width="240px" height="240px" style="filter: blur(7.5px);" src="./assets/browse-pic1.png" alt="">
@@ -443,17 +445,17 @@
   <!-- discover-more -->
   <div class="container-fluid bg-color-sizing dark-text-color">
     <div class="d-flex justify-content-between align-items-end gap-3" style="margin-bottom: 60px;">
-      <div>
+      <div data-aos="fade" data-aos-once="true">
         <h2 class="discover-title">Discover More NFTs</h2>
         <p class="discover-desc m-0">Explore New Trending NFTs</p>
       </div>
-      <button class="creators-desk-btn">
+      <button class="creators-desk-btn" data-aos="fade-left" data-aos-once="true">
         <span style="padding-right: 5px;;"><img src="./assets/Eye.svg" alt=""></span>
         See All
       </button>
     </div>
     <div class="discover-cards d-flex justify-content-between gap-3">
-        <div class="">
+        <div data-aos="fade-right">
           <img src="./assets/discover-pic1.png" width="330px" style="border-radius: 20px 20px 0px 0px;" alt="">
           <div class="cards-discover-info">
             <p style="font-size: 22px; font-weight: 600;">Distant Galaxy</p>
@@ -474,58 +476,57 @@
           </div>
         </div>
 
-          <div class="">
-            <img src="./assets/discover-pic2.png" width="330px" style="border-radius: 20px 20px 0px 0px;" alt="">
-            <div class="cards-discover-info">
-              <p style="font-size: 22px; font-weight: 600;">Distant Galaxy</p>
-              <p style="font-family: 'Space Mono'; font-weight: 400;">
-                <span class="p-1"><img src="./assets/avatar14.png" style="width: 24px; height: 24px; border-radius: 100px;" alt=""></span>
-                NebulaKid
-              </p>
-              <div class="card-price d-flex justify-content-between">
-                <div>
-                  <p class="card-price-titles">Price</p>
-                  <p>1.63 ETH</p>
-                </div>
-                <div>
-                  <p class="card-price-titles">Highest Bid</p>
-                  <p>0.33 wETH</p>
-                </div>
+        <div data-aos="fade-up">
+          <img src="./assets/discover-pic2.png" width="330px" style="border-radius: 20px 20px 0px 0px;" alt="">
+          <div class="cards-discover-info">
+            <p style="font-size: 22px; font-weight: 600;">Distant Galaxy</p>
+            <p style="font-family: 'Space Mono'; font-weight: 400;">
+              <span class="p-1"><img src="./assets/avatar14.png" style="width: 24px; height: 24px; border-radius: 100px;" alt=""></span>
+              NebulaKid
+            </p>
+            <div class="card-price d-flex justify-content-between">
+              <div>
+                <p class="card-price-titles">Price</p>
+                <p>1.63 ETH</p>
               </div>
-            </div>
-          </div>  
-      
-          <div class="">
-            <img src="./assets/discover-pic3.png" width="330px" style="border-radius: 20px 20px 0px 0px;" alt="">
-            <div class="cards-discover-info">
-              <p style="font-size: 22px; font-weight: 600;">Distant Galaxy</p>
-              <p style="font-family: 'Space Mono'; font-weight: 400;">
-                <span class="p-1"><img src="./assets/avatar11.png" style="width: 24px; height: 24px; border-radius: 100px;" alt=""></span>
-                Spaceone
-              </p>
-              <div class="card-price d-flex justify-content-between">
-                <div>
-                  <p class="card-price-titles">Price</p>
-                  <p>1.63 ETH</p>
-                </div>
-                <div>
-                  <p class="card-price-titles">Highest Bid</p>
-                  <p>0.33 wETH</p>
-                </div>
+              <div>
+                <p class="card-price-titles">Highest Bid</p>
+                <p>0.33 wETH</p>
               </div>
             </div>
           </div>
+        </div>  
+      
+        <div data-aos="fade-left">
+          <img src="./assets/discover-pic3.png" width="330px" style="border-radius: 20px 20px 0px 0px;" alt="">
+          <div class="cards-discover-info">
+            <p style="font-size: 22px; font-weight: 600;">Distant Galaxy</p>
+            <p style="font-family: 'Space Mono'; font-weight: 400;">
+              <span class="p-1"><img src="./assets/avatar11.png" style="width: 24px; height: 24px; border-radius: 100px;" alt=""></span>
+              Spaceone
+            </p>
+            <div class="card-price d-flex justify-content-between">
+              <div>
+                <p class="card-price-titles">Price</p>
+                <p>1.63 ETH</p>
+              </div>
+              <div>
+                <p class="card-price-titles">Highest Bid</p>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     <button class="creators-mob-btn">
       <span style="padding-right: 5px;;"><img src="./assets/Eye.svg" alt=""></span>
       See All
     </button>
-
   </div>
 
   <!-- NFT-highlight -->
-  <div class="nft-highlight-bg container-fluid bg-color-sizing dark-text-color d-flex align-items-end justify-content-between">
-    <div class="">
+  <div class="nft-highlight-bg container-fluid bg-color-sizing dark-text-color d-flex align-items-end justify-content-between overflow-hidden">
+    <div data-aos="fade-right">
       <p class="m-0" style="background-color: #3B3B3B; padding: 10px 20px 10px 20px; width: 155px; border-radius: 20px; margin-bottom: 30px;">
         <span class="pe-2"><img src="./assets/avatar7.png" width="24px" style="border-radius: 100px;" alt=""></span>
         Shroomie
@@ -535,9 +536,8 @@
         <span class="pe-2"><img src="./assets/Eye.svg" alt=""></span>
         See NFT
       </button>
-  
     </div>
-    <div id="timer">
+    <div id="timer" data-aos="fade-left">
       <p>Auction ends in:</p>
       <div class="timer-display p-0 mx-3">{{ time }}</div>
     </div>
@@ -550,25 +550,25 @@
   <!-- how-it-works -->
   <div class="container-fluid bg-color-sizing dark-text-color">
     <div>
-      <h2 class="how-title">How It Works</h2>
-      <p class="how-desc">Find Out How To Get Started</p> 
+      <h2 class="how-title" data-aos="fade" data-aos-once="true">How It Works</h2>
+      <p class="how-desc" data-aos="fade" data-aos-once="true">Find Out How To Get Started</p> 
 
-      <div class="howit-works-cards d-flex justify-content-between gap-3">
-        <div class="howit-works-card">
+      <div class="howit-works-cards d-flex justify-content-between gap-3 overflow-hidden">
+        <div class="howit-works-card" data-aos="fade-right">
           <img src="./assets/setup-wallet-icon.png" width="250px" style="margin-bottom: 20px;" alt="">
           <div>
             <h3 class="text-center" style="margin-bottom: 10px;">Setup Your Wallet</h3>
             <p class="text-center m-0" style="width: 270px;">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
           </div>
         </div>
-        <div class="howit-works-card">
+        <div class="howit-works-card" data-aos="fade-up">
           <img src="./assets/create-collection-icon.png" width="250px" style="margin-bottom: 20px;" alt="">
           <div>
             <h3 class="text-center" style="margin-bottom: 10px;">Create Collection</h3>
             <p class="text-center m-0" style="width: 270px;">Upload your work and setup your collection. Add a description, social links and floor price.</p>
           </div>
         </div>
-        <div class="howit-works-card">
+        <div class="howit-works-card" data-aos="fade-left">
           <img src="./assets/start-earning-icon.png" width="250px" style="margin-bottom: 20px;" alt="">
           <div>
             <h3 class="text-center" style="margin-bottom: 10px;">Start Earning</h3>
@@ -582,10 +582,10 @@
   <!-- subscribe-widget -->
   <div class="container-fluid bg-color-sizing dark-text-color" style="padding-top: 40px;">
     <div class="subscribe-widget d-flex justify-content-between align-items-center ">
-      <div class="subscribe-pic">
+      <div class="subscribe-pic" data-aos="zoom-in-right">
         <img src="./assets/astronaut.png" alt="astronaut">
       </div>
-      <div>
+      <div data-aos="zoom-in-left">
         <h3 class="subscribe-title">Join Our Weekly Digest</h3>
         <p class="subscribe-desc">Get exclusive promotions & updates <br> straight to your inbox.</p>
         <form action="">
@@ -602,7 +602,7 @@
   <!-- footer -->
   <footer class="container-fluid footer-color-sizing dark-text-color">
     <div class="nft-footer d-flex justify-content-between gap-3">
-      <div class="d-flex flex-column ">
+      <div class="d-flex flex-column"  >
         <p style="font-family: 'Space Mono'; color: white; font-size: 22px; font-weight: 700;">
           <span><img src="./assets/nav/Storefront.svg" alt=""></span>
           NFT Marketplace
@@ -647,7 +647,16 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 1000, 
+      offset: 400
+    });
+    AOS.init({
+    disable: function () {
+    var maxWidth = 920;
+    return window.innerWidth < maxWidth;
+  }
+});
   </script>
   <script src="js/app.js"></script>
 </body>
